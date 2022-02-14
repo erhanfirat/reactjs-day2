@@ -30,13 +30,13 @@ const TasksJson = [
     },
     {
         id: 6, priority: 3, description: "Learn Basics Of Javsacript", completed: false, subTasks: [
-            { id: 51, priority: 3, description: "Take courses from [https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/]", completed: false },
-            { id: 52, priority: 3, description: "Do exersized on your own.", completed: false },
+            { id: 61, priority: 3, description: "Take courses from [https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/]", completed: false },
+            { id: 62, priority: 3, description: "Do exersized on your own.", completed: false },
         ]
     },
     { id: 7, priority: 3, description: "Learn NPM Package Manager Basics", completed: true },
     { id: 7, priority: 1, description: "Learn Yarn Package Manager Basics", completed: false },
-]
+];
 
 
 const PRIORITY = [

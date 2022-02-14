@@ -16,7 +16,7 @@ const GreetingsFunction = () => {
         <label htmlFor="UserNameInput">Your Name: </label>
         <input id="UserNameInput" type="text" ref={inputRef} onChange={inputChangeHandler}></input>
         <hr />
-        <h1>Merhaba {name}</h1>
+        {name ? <h1>Merhaba {name}</h1> : <p>Lütfen isim giriniz</p>}
     </div>;
 }
 
